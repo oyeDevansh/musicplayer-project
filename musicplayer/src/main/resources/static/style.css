@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    color: aliceblue;
+    background: linear-gradient(to right,#061b3d,black);
+    height: 50px;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+width: 70px;
+height: 50px;
+}
+
+
+button.pay{
+    background-color: #6db33f;
+     padding: 0 12px;
+     border-radius: 5px
+}
+
+h1.heading{
+ padding-bottom: 17px;
+}
+
+.container{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 2px solid white;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 35px;
+    background-image: url('bg.jpg');
+    background-size: cover ;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 15px;
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+    padding-left: 300px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: black;
+    width: 280px;
+    color: white;
+    border: 2px solid white;
+    margin: 12px 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.songItem img {
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 25px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.range{
+    display: flex;
+    justify-content: center;
+}
+
+.volume{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 0 50px;
+}
